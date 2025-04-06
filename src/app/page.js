@@ -1,13 +1,12 @@
 'use client'
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 
 //index route
 export default function Home() {
 
-  const router = useRouter();
-
+  
   const handleNavigate = () =>{
     router.push('product')
   }
