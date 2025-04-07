@@ -17,7 +17,7 @@ export default async function ServerSideDataFetching(){
 
     return (
         <div>
-            <h1>Client side data fetching !!</h1>
+            <h1>Server side data fetching !!</h1>
             <ul>
                 {
                    listOfUsers && listOfUsers.length > 0
